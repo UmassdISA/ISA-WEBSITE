@@ -879,6 +879,7 @@ body .slider {
   background: #282828;
   color: #fff;
 }
+
 .custom-btn a:hover {
   text-decoration: none;
 }
@@ -909,6 +910,72 @@ body .slider {
 .custom-btn:hover i {
   opacity: 0;
 }
+
+.custom-btnd {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: center;
+}
+.custom-btnd * {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.custom-btnd a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 58px;
+  border: 1px solid #676767;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0 30px;
+  padding-top: 18px;
+  background: #676767;
+  color: #282828;
+}
+
+.custom-btnd a:hover {
+  text-decoration: none;
+}
+.custom-btnd span {
+  width: 20px;
+  height: 1px;
+  background: #282828;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.custom-btnd i {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 4px 0 4px 4px;
+  border-color: transparent transparent transparent #282828;
+  opacity: 1;
+  margin-top: 5px;
+}
+.custom-btnd:hover span {
+  width: 50px;
+  margin-left: 20px;
+}
+.custom-btnd:hover i {
+  opacity: 0;
+}
+
+
 
 /* HEADER */
 .header {
